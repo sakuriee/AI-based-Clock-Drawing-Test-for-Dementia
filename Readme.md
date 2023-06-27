@@ -1,7 +1,7 @@
 
 # Parkonix
 
-## Unveiling the Tremors, A Reliable Algorithm with 83% Accuracy for Detecting Parkinson's Disease through Spiral/Wave Sketch Images.
+## Unveiling the Tremors, A Reliable Algorithm with 83% Accuracy for Detecting Parkinson's Disease through Clock-Drawing Test.
 
 <br>
 
@@ -14,12 +14,12 @@ Parkonix is an advanced algorithm developed for the accurate detection of Parkin
 <br>
 
 ## ⭐  Overview
-Parkinson's disease is a neurodegenerative disorder that affects motor functions, leading to tremors, stiffness, and impaired movement. The research presented in the mentioned article explores the use of spiral and wave sketch images to develop a robust algorithm for Parkinson's disease detection. Parkonix leverages these sketch images to train a machine learning model, achieving an impressive accuracy rate of 83%.
+The Clock-Drawing Test is a simple screening tool used to assess cognitive impairment, particularly in dementia. Individuals are asked to draw a clock face and set their hands to a specific time. Performance is evaluated based on elements like spatial organization, number placement, and clock-hand placement. Abnormalities may indicate a cognitive decline.
 
 <br>
 
 ## ⭐  Features
-* Parkinson's disease detection based on spiral and wave sketch images.
+* Parkinson's disease detection based on clock drawing images.
 * Utilizes Teachable Machine, a user-friendly platform for training machine learning models.
 * Achieves an accuracy rate of 83%, providing reliable results.
 * Fast and efficient detection process.
