@@ -19,11 +19,11 @@ st.set_page_config(page_title="Parkonix", page_icon=":medical_symbol:")
 st.title("Parkonix")
 
 st.header(
-    "Unveiling Parkinson's with Precision - 83% Accurate Detection Algorithm Trained on Spiral Sketches."
+    "Unveiling Parkinson's with Precision - 83% Accurate Detection Algorithm Trained on Clock-Drawing."
 )
 
 st.write(
-    "Try drawing a Spiral and watch how an AI Model will detect the Parkinson Disease."
+    "Try drawing a Clock and watch how an AI Model will detect the Parkinson Disease."
 )
 
 st.caption(
@@ -31,7 +31,7 @@ st.caption(
 )
 
 st.warning(
-    "Warning: Do not click Submit Sketch button before drawing spiral on below Canvas."
+    "Warning: Do not click Submit Sketch button before drawing clock on below Canvas."
 )
 
 with st.sidebar:
@@ -178,8 +178,8 @@ footer = """
 <div style="text-align: center; font-size: medium; margin-top:50px;">
     If you find Parkonix useful or interesting, please consider starring it on GitHub.
     <hr>
-    <a href="https://github.com/SaiJeevanPuchakayala/Parkonix" target="_blank">
-    <img src="https://img.shields.io/github/stars/SaiJeevanPuchakayala/Parkonix.svg?style=social" alt="GitHub stars">
+    <a href="https://github.com/sakuriee/AI-based-Clock-Drawing-Test-for-Dementia" target="_blank">
+    <img src="https://img.shields.io/github/stars/sakuriee/AI-based-Clock-Drawing-Test-for-Dementia.svg?style=social" alt="GitHub stars">
   </a>
 </div>
 """
