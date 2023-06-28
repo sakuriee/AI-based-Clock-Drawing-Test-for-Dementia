@@ -1,5 +1,5 @@
 
-# Parkonix
+# AI-based Clock Drawing Test for Dementia
 
 ## Unveiling the Tremors, A Reliable Algorithm with 83% Accuracy for Detecting Parkinson's Disease through Clock-Drawing Test.
 
