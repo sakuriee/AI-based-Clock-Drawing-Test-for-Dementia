@@ -35,17 +35,17 @@ st.warning(
 )
 
 with st.sidebar:
-    img = Image.open("./Images/parkinson_disease_detection.jpg")
+    img = Image.open("./Images/dementia.png")
     st.image(img)
-    st.subheader("About Parkonix")
-    link_text = "Distinguishing Different Stages of Parkinson’s Disease Using Composite Index of Speed and Pen-Pressure of Sketching a Spiral"
-    link_url = "https://www.frontiersin.org/articles/10.3389/fneur.2017.00435/full"
+    st.subheader("About Dementia")
+    link_text = "How the Clock-Drawing Test Screens for Dementia"
+    link_url = "https://www.verywellhealth.com/the-clock-drawing-test-98619"
     st.write(
-        "Parkinson's disease is a neurodegenerative disorder that affects motor functions, leading to tremors, stiffness, and impaired movement. The research presented in the article link mentioned below explores the use of spiral and wave sketch images to develop a robust algorithm for Parkinson's disease detection. Parkonix leverages these sketch images to train an AI model, achieving an impressive accuracy rate of 83%."
+        "Dementia is the loss of cognitive functioning — thinking, remembering, and reasoning — to such an extent that it interferes with a person's daily life and activities. Some people with dementia cannot control their emotions, and their personalities may change."
     )
     st.markdown(f"[{link_text}]({link_url})")
     st.header("Dataset")
-    img = Image.open("./Images/healthy_diseased_classification.jpeg")
+    img = Image.open("./Images/clock_drawing_test_classification.png")
     st.image(img)
     st.header("Drawing Canvas Configurations")
 
@@ -98,7 +98,7 @@ def generate_user_input_filename():
 
 
 def predict_parkinsons(img_path):
-    best_model = load_model("./keras_model.h5", compile=False)
+    best_model = load_model("keras_model.h5", compile=False)
 
     # Load the labels
     class_names = open("labels.txt", "r").readlines()
@@ -152,7 +152,7 @@ def predict_parkinsons(img_path):
 submit = st.button(label="Submit Sketch")
 if submit:
     st.subheader("Output")
-    classified_label, prediction = predict_parkinsons(canvas_image)
+    classified_label, prediction = predict_dementia(canvas_image)
     with st.spinner(text="This may take a moment..."):
         st.write(classified_label)
 
@@ -176,7 +176,7 @@ if submit:
 
 footer = """
 <div style="text-align: center; font-size: medium; margin-top:50px;">
-    If you find Parkonix useful or interesting, please consider starring it on GitHub.
+    If you find Dementia useful or interesting, please consider starring it on GitHub.
     <hr>
     <a href="https://github.com/sakuriee/AI-based-Clock-Drawing-Test-for-Dementia" target="_blank">
     <img src="https://img.shields.io/github/stars/sakuriee/AI-based-Clock-Drawing-Test-for-Dementia.svg?style=social" alt="GitHub stars">
