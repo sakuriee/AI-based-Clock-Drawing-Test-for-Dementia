@@ -1,15 +1,15 @@
 
 # AI-based Clock Drawing Test for Dementia
 
-## Unveiling the Tremors, A Reliable Algorithm with 83% Accuracy for Detecting Parkinson's Disease through Clock-Drawing Test.
+## AI-based Clock Drawing Test for Dementia - 85% Accurate Detection Algorithm.
 
 <br>
 
-![Parkinson's Disease](./Images/diseased_person.png)
+![Dementia](./Images/dementia.png)
 
 <br>
 
-Parkonix is an advanced algorithm developed for the accurate detection of Parkinson's disease. Based on the research article "Automated Parkinson's Disease Detection Based on Handwriting Movement" by Rigas et al., this repository contains the implementation of Parkonix using Teachable Machine.
+The clock-drawing test is a simple tool used to check for signs of dementia, including Alzheimer’s disease. It is often used in combination with other screening tests but can provide valuable clues on its own. Detection Based on Handwriting Movement" by Rigas et al., this repository contains the implementation of Dementia using Teachable Machine.
 
 <br>
 
@@ -19,9 +19,9 @@ The Clock-Drawing Test is a simple screening tool used to assess cognitive impai
 <br>
 
 ## ⭐  Features
-* Parkinson's disease detection based on clock drawing images.
+* Dementia detection based on clock drawing images.
 * Utilizes Teachable Machine, a user-friendly platform for training machine learning models.
-* Achieves an accuracy rate of 83%, providing reliable results.
+* Achieves an accuracy rate of 85%, providing reliable results.
 * Fast and efficient detection process.
 * Easy to use and integrate into existing applications.
 
@@ -29,10 +29,10 @@ The Clock-Drawing Test is a simple screening tool used to assess cognitive impai
 
 ## ⭐  How to Use
 1. Ensure that you have the necessary dependencies installed.
-2. Obtain a dataset of spiral and wave sketch images.
-3. Train the Parkonix algorithm using Teachable Machine, providing the dataset as input.
+2. Obtain a dataset of clock drawing images.
+3. Train the Dementia algorithm using Teachable Machine, providing the dataset as input.
 4. Save the trained model and export it in a compatible format.
-5. Integrate the Parkonix algorithm into your application and utilize it for Parkinson's disease detection.
+5. Integrate the Dementia algorithm into your application and utilize it for Dementia detection.
 
 <br>
 
@@ -40,7 +40,7 @@ The Clock-Drawing Test is a simple screening tool used to assess cognitive impai
 
 [Teachable Machine](https://teachablemachine.withgoogle.com/)
 
-![Teachable Machine Demo](./Images/teachablemachine_demo.jpg)
+![Teachable Machine Demo](./Images/teachablemachine_demo.png)
 
 Teachable Machine is an innovative platform developed by Google that allows users to build custom machine learning models without the need for coding or extensive technical knowledge. The platform utilizes a simple drag-and-drop interface that allows users to input data and train machine learning models quickly and easily.
 
@@ -96,7 +96,7 @@ gatherUsageStats = false
 </b></b>
 
 ## `Accuracy Per Class`
-> ![Teachable Machine](./Images/accuracy_per_class.jpg)
+> ![Teachable Machine](./Images/accuracy_per_class.png)
 </b></b>
 
 ## `Accuracy Per Epoch`
