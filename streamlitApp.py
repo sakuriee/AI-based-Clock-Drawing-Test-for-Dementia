@@ -14,20 +14,20 @@ np.set_printoptions(suppress=True)
 
 
 # Define the layout of the app
-st.set_page_config(page_title="Parkonix", page_icon=":medical_symbol:")
+st.set_page_config(page_title="Clock Drawing Test", page_icon=":medical_symbol:")
 
-st.title("Parkonix")
+st.title("Clock Drawing Test")
 
 st.header(
-    "Unveiling Parkinson's with Precision - 83% Accurate Detection Algorithm Trained on Clock-Drawing."
+    "AI-based Clock Drawing Test for Dementia - 85% Accurate Detection Algorithm."
 )
 
 st.write(
-    "Try drawing a Clock and watch how an AI Model will detect the Parkinson Disease."
+    "Try drawing a Clock and watch how an AI Model will detect Dementia."
 )
 
 st.caption(
-    "The application will infer the one label out of 2 labels, as follows: Healthy, Parkinson Diseased."
+    "The application will infer the one label out of 2 labels, as follows: Healthy, Dementia."
 )
 
 st.warning(
