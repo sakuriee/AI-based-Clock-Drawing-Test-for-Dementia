@@ -101,8 +101,7 @@ def predict_dementia(img_path):
     best_model = load_model("keras_model.h5", compile=False)
 
     # Load the labels
-    class_names = open("labels.txt", "r")
-    class_names.readlines()
+    class_names = open("labels.txt", "r").readlines()
 
     # Create the array of the right shape to feed into the keras model
     # The 'length' or number of images you can put into the array is
