@@ -97,7 +97,7 @@ def generate_user_input_filename():
     return filename
 
 
-def predict_parkinsons(img_path):
+def predict_dementia(img_path):
     best_model = load_model("keras_model.h5", compile=False)
 
     # Load the labels
