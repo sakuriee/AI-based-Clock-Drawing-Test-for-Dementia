@@ -169,7 +169,7 @@ if submit:
             lambda x: f"{str(np.round(x*100))[:-2]}%"
         )
 
-        df["Class"] = df["Class"].apply(lambda x: x.split(" ")[1])
+        df["Class"] = df["Class"].apply(lambda x: x.split(" ", 1)[1])
 
         st.subheader("Confidence Scores on other classes:")
         st.write(df)
